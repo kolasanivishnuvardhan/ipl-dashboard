@@ -1,0 +1,109 @@
+.latest-match-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px 20px 10px;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+
+.match-info-and-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.match-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cometing-team-name {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 26px;
+}
+
+.date {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.venue {
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  color: #ffffff;
+  width: 70%;
+}
+
+.result {
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.cometing-team-logo {
+  width: 90px;
+  height: 90px;
+  margin-right: 10%;
+}
+
+.seperator {
+  color: #ffffff;
+  width: 100%;
+  height: 2px;
+  display: flex;
+}
+
+.first-innings {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  color: #ffffff;
+}
+.first-innings-team-name {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  color: #ffffff;
+}
+@media screen and (min-width: 576px) {
+  .latest-match-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .seperator {
+    display: none;
+  }
+  .cometing-team-logo {
+    width: 45%;
+    height: 160px;
+  }
+  .match-info-and-logo-container {
+    width: 50%;
+  }
+  .cometing-team-name {
+    font-size: 32px;
+  }
+
+  .date {
+    font-size: 26px;
+  }
+
+  .venue {
+    font-size: 22px;
+  }
+  .result{
+    font-size: 22px;
+  }
+  .first-innings{
+    font-size: 28px;
+  }
+  .first-innings-team-name{
+    font-size: 24;
+
+  }
+}
+
